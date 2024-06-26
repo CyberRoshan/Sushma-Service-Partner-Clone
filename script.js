@@ -26,3 +26,19 @@ closeSliderBtn.addEventListener("click", ()=>{
     mainSlider.style.left="-100%"
 })
 // ! Position Bar Slider End
+// ! FAQ's Section Start
+let faqContainer=document.querySelector(".faq-container")
+let paragraph=document.querySelector(".faq-items>p")
+let spanPlusMinus=document.querySelector(".faq-items>h3>span")
+faqContainer.addEventListener("click",(event)=>{
+    if(event.target.tagName=="H3"){
+        event.target.nextElementSibling.classList.toggle("paraClose")
+        if(spanPlusMinus.innerHTML=="+"){
+            spanPlusMinus.innerHTML="-"
+        }
+        else{
+            spanPlusMinus.innerHTML="+"
+        }
+    }
+})
+// ! FAQ's Section End

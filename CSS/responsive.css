@@ -207,6 +207,12 @@
     line-height: 40px;
   }
   /* ! Enquiry Now Section End */
+  /* ! FAQ's Section Start */
+  .mid-faq{
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  /* ! FAQ's Section End */
   /* ! Project Info Secton Start */
   .mid-project--info {
     max-width: 100%;

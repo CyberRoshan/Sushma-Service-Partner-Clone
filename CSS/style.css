@@ -547,6 +547,65 @@ sub {
   line-height: 24px;
 }
 /* ! Enquiry Now Section End */
+/* ! FAQ's Section Start */
+.main-faq{
+  width: 100%;
+}
+.mid-faq{
+  max-width: 1050px;
+  margin: auto;
+  padding: 50px 0px;
+}
+.mid-faq>h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.faq-container{
+  max-width: 100%;
+  padding: 50px 0px;
+}
+.faq-items{
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+.faq-items:hover.faq-items>h3{
+  color: var(--theme-color);
+}
+.faq-items>h3{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--light-black);
+  padding: 20px;
+  position: relative;
+}
+.faq-items>h3>span{
+  position: absolute;
+  color: var(--light-black);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 22px;
+  right: 10px;
+}
+.faq-items>p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0;
+  max-height: 0;
+  transition: 0.5s;
+}
+.paraClose{
+  opacity: 1 !important;
+  max-height: 500px !important;
+  padding: 0px 10px 20px 20px;
+}
+/* ! FAQ's Section End */
 /* ! Project Info Secton Start */
 .main-project--info {
   width: 100%;
