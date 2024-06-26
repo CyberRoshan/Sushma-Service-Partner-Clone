@@ -1,0 +1,245 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  /* ! Position Form Start */
+  #enquireForm {
+    max-width: 95%;
+  }
+  /* ! Position Form End */
+  /* ! Position Bar Slider Start */
+  .main-slider > .slider-nav--right {
+    display: block;
+  }
+  .ourProjects-ul > li > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ourProjects-ul > li > ul > li {
+    border-left: none;
+  }
+  /* ! Position Bar Slider End */
+  /* ! Header Section Start */
+  header {
+    width: 100%;
+  }
+  nav {
+    max-width: 100%;
+    padding: 10px 20px;
+  }
+  .nav-right {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+  /* ! Header Section End */
+  /* ! Hero Section Start */
+  .main-hero {
+    background: url("../images/32.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  .mid-hero {
+    max-width: 100%;
+    padding: 35% 20px;
+    text-align: center;
+  }
+  .mid-hero > h1 {
+    font-size: 30px;
+    line-height: 40px;
+    color: white;
+  }
+  /* ! Hero Section End */
+  /* ! Passion Section Start */
+  .mid-passion {
+    max-width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .mid-passion > p {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0px 20px;
+  }
+  .passion-container {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: start;
+  }
+  .passion-left {
+    flex-basis: 100%;
+    text-align: start;
+  }
+  .passion-left > h2 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .passion-left > h2 > span {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .passion-right {
+    flex-basis: 100%;
+  }
+  .passion-right > img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .passion-right > #pos-img {
+    left: 50%;
+  }
+  /* ! Passion Section End */
+  /* ! Achivements Section Start */
+  .main-achivements {
+    height: auto;
+    background: url("../images/Details-bg.webp") no-repeat top center;
+  }
+  .mid-achivements {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .achivement-items {
+    flex-basis: 100%;
+    border-right: none;
+    padding: 20px 0px;
+  }
+  .achivement-items > span {
+    font-size: 35px;
+    line-height: 60px;
+  }
+  /* ! Achivements Section End */
+  /* ! Creativity Section Start */
+  .mid-creativity {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .mid-creativity > p {
+    line-height: 25px;
+  }
+  .creativity-container {
+    max-width: 100%;
+    gap: 100px;
+  }
+  .creativity-items {
+    flex-basis: 100%;
+  }
+  .creativity-items > .overlay {
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    text-align: center;
+    max-width: 100%;
+    padding: 0px;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--light-black);
+    top: 100%;
+    right: 0px;
+  }
+  .creativity-items > .reverse-overlay {
+    top: 100%;
+    left: 0px;
+  }
+  /* ! Creativity Section End */
+  /* ! Service Partner Section Start */
+  .mid-service-partner {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .same-h2 {
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+  }
+  .service-partner--container {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+  .service-items--left {
+    flex-basis: 100%;
+  }
+  .service-items--center {
+    flex-basis: 100%;
+  }
+  .service-items--center > h4 {
+    margin: 20px 0px;
+  }
+  .service-items--right {
+    flex-basis: 100%;
+  }
+  /* ! Service Partner Section End */
+  /* ! Our Projects Section Start */
+  .mid-our--projects {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-left {
+    flex-basis: 100%;
+    display: none;
+  }
+  .project-left--items {
+    gap: 20px;
+  }
+  .project-right {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .project-right > figure {
+    width: 100%;
+  }
+  /* ! Our Projects Section End */
+  /* ! Enquiry Now Section Start */
+  .mid-enquiry--now {
+    max-width: 100%;
+    padding: 100px 20px;
+  }
+  .mid-enquiry--now > h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .mid-enquiry--now > h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  /* ! Enquiry Now Section End */
+  /* ! Project Info Secton Start */
+  .mid-project--info {
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+  .project-info--items > ul {
+    margin-bottom: 50px;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .project-info--items > ul > li {
+    border-left: none;
+  }
+  /* ! Project Info Secton End */
+  /* ! Footer Section Start */
+  .mid-footer,
+  .mid-footer--2 {
+    max-width: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .footer-left {
+    flex-basis: 100%;
+  }
+  .footer-right {
+    flex-basis: 100%;
+    padding: 0px;
+    border-left: none;
+  }
+  .footer-right > h3 {
+    margin-bottom: 30px;
+  }
+  /* ! Footer Section End */
+}
