@@ -208,7 +208,7 @@
   }
   /* ! Enquiry Now Section End */
   /* ! FAQ's Section Start */
-  .mid-faq{
+  .mid-faq {
     max-width: 100%;
     padding: 50px 20px;
   }
@@ -246,6 +246,185 @@
   }
   .footer-right > h3 {
     margin-bottom: 30px;
+  }
+  /* ! Footer Section End */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  /* ! Header Section Start */
+  .header-btn {
+    display: none;
+  }
+  nav {
+    max-width: 100%;
+    padding: 10px 20px;
+  }
+  /* ! Header Section End */
+  /* ! Hero Section Start */
+  .mid-hero {
+    max-width: 100%;
+    padding: 20% 20px;
+  }
+  .mid-hero > h1 {
+    text-align: center;
+  }
+  /* ! Hero Section End */
+  /* ! Passion Section Start */
+  .mid-passion {
+    max-width: 100%;
+    padding: 100px 20px 50px 20px;
+  }
+  .passion-container {
+    max-width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .passion-left {
+    flex-basis: 100%;
+  }
+  .passion-right {
+    flex-basis: 100%;
+  }
+  .passion-right > img {
+    width: 600px;
+    height: 400px;
+  }
+  .passion-right > #pos-img {
+    width: 60%;
+    height: 300px;
+    left: 50%;
+  }
+  /* ! Passion Section End */
+  /* ! Achivements Section Start */
+  .main-achivements {
+    background: url("../images/Details-bg.webp") no-repeat top center;
+  }
+  .mid-achivements {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .achivement-items {
+    flex-basis: 100%;
+    border-right: none;
+    padding: 30px;
+  }
+  /* ! Achivements Section End */
+  /* ! Creativity Section Start */
+  .mid-creativity {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .creativity-container {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 120px;
+  }
+  .creativity-items {
+    flex-basis: 100%;
+  }
+  .creativity-items > .overlay {
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    max-width: 100%;
+    background-color: white;
+    color: black;
+    top: 99%;
+    left: 0;
+  }
+  /* ! Creativity Section End */
+  /* ! Service Partner Section Start */
+  .mid-service-partner {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .service-partner--container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .service-items--left {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .service-items--left > img {
+    width: 60%;
+  }
+  .service-items--center {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .service-items--right {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .service-items--right > img {
+    width: 50%;
+  }
+  /* ! Service Partner Section End */
+  /* ! Our Projects Section Start */
+  .mid-our--projects {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-left {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+  }
+  .project-left--items > img {
+    display: none;
+  }
+  .project-item--content > span {
+    display: none;
+  }
+  .project-right {
+    flex-basis: 100%;
+  }
+  /* ! Our Projects Section End */
+  /* ! Enquiry Now Section Start */
+  .mid-enquiry--now {
+    max-width: 100%;
+    padding: 100px 20px;
+  }
+  /* ! Enquiry Now Section End */
+  /* ! FAQ's Section Start */
+  .mid-faq {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  /* ! FAQ's Section End */
+  /* ! Project Info Secton Start */
+  .mid-project--info {
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+  .project-info--items > ul {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .project-info--items > ul > li {
+    border-left: none;
+  }
+  /* ! Project Info Secton End */
+  /* ! Footer Section Start */
+  .mid-footer,
+  .mid-footer--2 {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-left {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .footer-right {
+    flex-basis: 100%;
+    border-left: none;
   }
   /* ! Footer Section End */
 }

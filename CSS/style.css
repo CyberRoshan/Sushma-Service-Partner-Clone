@@ -207,7 +207,6 @@ nav {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-
   animation: scale-btn 0.8s infinite linear alternate-reverse;
 }
 @keyframes scale-btn {
